@@ -1,0 +1,28 @@
+{
+  "name": "pdf-viewer-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "curl -L https://github.com/mozilla/pdf.js/archive/gh-pages.zip > pdf.js-gh-pages.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaser53/pdf-viewer-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchaser53/pdf-viewer-playground/issues"
+  },
+  "homepage": "https://github.com/rchaser53/pdf-viewer-playground#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pdf.js": "^0.1.0",
+    "pdfjs-dist": "^2.0.305"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1"
+  }
+}

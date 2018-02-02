@@ -1,0 +1,1 @@
+curl -L https://github.com/mozilla/pdf.js/archive/gh-pages.zip > pdf.js-gh-pages.zip
